@@ -1,0 +1,112 @@
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: #fff;
+    font-family: sans-serif;
+    line-height: 1.5;
+    padding-top: 70px;
+}
+
+a {
+    text-decoration: none;
+    color: unset;
+}
+
+
+.Slides {
+    padding-left: 50px;
+    width: 100%;
+    border: 2px solid red;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.delete-btn {
+    z-index: 5;
+    position: absolute;
+    right: 2%;
+    top: 5%;
+    background-color: #fff;
+    text-align: center;
+    padding: 15px 23px 14px 21px;
+    border-radius: 50%;
+
+    p {
+        color: #000;
+    }
+}
+
+
+.Content {
+    z-index: 5;
+    width: 33%;
+    position: absolute;
+    left: 1.5%;
+    bottom: 7%;
+
+    h1 {
+        font-size: 2.5em;
+        font-weight: 800;
+    }
+
+    p {
+        font-size: 1em;
+        color: #e7e7e7;
+    }
+}
+
+.swiper-button-prev {
+    position: absolute !important;
+    left: 5% !important;
+    z-index: 999999 !important;
+    width: 43px !important;
+    height: 40px !important;
+    border-radius: 50%;
+    background-color: rgb(14, 94, 255);
+}
+
+.swiper-button-prev::after {
+    content: "";
+    font-size: 20px !important;
+    margin-right: 5px !important;
+    color: #fff ; 
+}
+
+.swiper-button-next {
+    position: absolute !important;
+    right: 5.4% !important;
+    width: 44px !important;
+    height: 41px !important;
+    border-radius: 50%;
+    background-color: rgb(14, 94, 255);
+}
+
+.swiper-button-next::after {
+    content: "";
+    font-size: 22px !important;
+    color: #fff ; 
+}
+
+.swiper {
+    width: 90% !important;
+    position: static !important;
+    z-index: 9999999;
+    display: flex !important;
+    justify-content: flex-end !important;
+    gap: 20px !important;
+}
+
+.img-edit {
+    position: absolute;
+    inset: 0 0 0 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+    object-fit: cover;
+}
