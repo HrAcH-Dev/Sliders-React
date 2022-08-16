@@ -82,12 +82,12 @@ function App() {
 
   const handleLeftClick = (e) => {
     e.preventDefault();
-    carousel.current.scrollLeft -= 300;
+    carousel.current.scrollLeft -= 280;
   };
 
   const handleRightClick = (e) => {
     e.preventDefault();
-    carousel.current.scrollLeft += 300;
+    carousel.current.scrollLeft += 285;
   };
 
 

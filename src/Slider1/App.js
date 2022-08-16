@@ -62,7 +62,6 @@ export default function App() {
       margin: "0 auto", 
       borderRadius: "8px",
       height: "82vh",
-      border: "1px solid red",
       display: "flex",
       alignItems: "flex-end",
       justifyContent: "flex-end",
